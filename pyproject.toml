@@ -1,0 +1,11 @@
+[project]
+name = "NoSleepPC"
+version = "0.1.0"
+description = "This program is designed to help you maintain your system active, for those situations where you need to leave something doing it's work while you go away and can't be bothered to change your settings so your PC doesn't go to sleep."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncio==3.4.3",
+    "keyboard==0.13.5",
+    "mouse==0.7.1",
+]

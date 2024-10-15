@@ -24,6 +24,7 @@ async def checkForQuit():
     if is_pressed('esc'):
         print("Has detenido el programa.")
         print("Ya puedes cerrar esta ventana, pero se cerrará de todos modos en unos segundos.")
+        await asyncio.sleep(2)
         return True
     return False
 
@@ -39,5 +40,6 @@ async def mainLoop():
                 stop = True
                 break
 
-print("El programa empezará de inmediato...\n\nPara detener el programa cierra esta ventana o mantén presionado Esc.\n")
+print("El programa empezará de inmediato...\n\nPara detener el programa cierra esta ventana o mantén presionado Esc.\n\n\n")
+print("https://github.com/tfVerdi/NoSleepPC\n\n")
 asyncio.run(mainLoop())

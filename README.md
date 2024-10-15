@@ -1,4 +1,4 @@
-# PC Idler
+# NoSleepPC
 
 There are 2 versions of this program, "MouseMovement_wTabSwitch.exe" and "MouseMovement.exe"
 

@@ -1,4 +1,6 @@
 .venv/*
 build/*
 dist/*
+assets/*
 MiceMovement.spec
+MiceMovement_wTabSwitch.spec
